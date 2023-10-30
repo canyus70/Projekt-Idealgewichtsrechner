@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Projekt Lvl 3.2 Optimalgewichtrechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <h2>Idealgewichtsrechner</h2>
+        <div>
+            <label for="KörperGrößeId">Körpergröße</label>
+            <input type="number" name="körpergröße" id="körperGrößeId">
+        </div>
+        <div>
+            <label for="alterId">Alter</label>
+            <input type="number" name="alter" id="alterId">
+        </div>
+        <div>
+            <label for="breiteId">Körperbau</label>
+        </div>
+        <div class="dontflex">
+            <input type="radio" name="körperbau" id="breiteId" value="Breite" checked> 
+            <label for="schmalId" class="labelbla">Breite</label>
+            <input type="radio" name="körperbau" id="schmalId" value="Schmale">
+            <label for="körperbau" class="labelbla">Schmale</label>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+        <div>
+            <p id="ergebnisId"></p>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
